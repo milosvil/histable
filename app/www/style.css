@@ -1,0 +1,43 @@
+.selectize-input.full {
+  border: 1px solid #2b2d42;
+  border-radius: 0px;
+  background-color: #edf2f4 !important;
+}
+
+.selectize-input.focus {
+  box-shadow: none !important;
+}
+
+.selectize-dropdown, .selectize-dropdown.form-control {
+    height: auto;
+    padding: 0;
+    margin: 2px 0 0 0;
+    z-index: 1000;
+    background: #edf2f4 !important;
+    border: 1px solid #2b2d42 !important;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #8d99ae;
+    text-decoration: none;
+    background-color: #edf2f4;
+    border: none !important;
+}
+
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #edf2f4;
+    border-color: transparent !important;
+}
